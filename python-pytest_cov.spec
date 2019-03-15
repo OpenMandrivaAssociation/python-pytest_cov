@@ -1,6 +1,6 @@
 # Created by pyp2rpm-2.0.0
 %global pypi_name pytest-cov
-%global with_python2 1
+%global with_python2 0
 %define version 2.6.1
 
 Name:           python-%{pypi_name}
