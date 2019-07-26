@@ -4,15 +4,15 @@
 %define version 2.6.1
 
 Name:           python-%{pypi_name}
-Version:        %{version}
-Release:        1
+Version:	2.7.1
+Release:	1
 Group:          Development/Python
 Summary:        This plugin produces coverage reports.
 
 License:        MIT
 URL:            https://github.com/pytest-dev/pytest-cov
 
-Source0:        https://files.pythonhosted.org/packages/54/16/4229c5514d12b25c3555ca775c7c3cade9a63da99b52fd5fc45962fa3d29/%{pypi_name}-%{version}.tar.gz
+Source0:	https://files.pythonhosted.org/packages/bb/0f/3db7ff86801883b21d5353b258c994b1b8e2abbc804e2273b8d0fd19004b/pytest-cov-2.7.1.tar.gz
 BuildArch:      noarch
 BuildRequires:  python3-devel
 BuildRequires:  python-setuptools
