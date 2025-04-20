@@ -1,7 +1,7 @@
 Name:		python-pytest-cov
-Version:	6.0.0
+Version:	6.1.1
 Release:	1
-Source0:	https://files.pythonhosted.org/packages/source/p/pytest-cov/pytest-cov-%{version}.tar.gz
+Source0:	https://files.pythonhosted.org/packages/source/p/pytest-cov/pytest_cov-%{version}.tar.gz
 Summary:	Pytest plugin for measuring coverage.
 URL:		https://pypi.org/project/pytest-cov/
 License:	MIT
@@ -15,7 +15,7 @@ Obsoletes:	python2-pytest-cov
 Pytest plugin for measuring coverage.
 
 %prep
-%autosetup -p1 -n pytest-cov-%{version}
+%autosetup -p1 -n pytest_cov-%{version}
 
 %files
 %{py_sitedir}/pytest_cov
