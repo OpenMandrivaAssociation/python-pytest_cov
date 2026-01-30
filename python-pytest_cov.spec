@@ -3,7 +3,7 @@
 
 Name:		python-pytest-cov
 Version:	7.0.0
-Release:	1
+Release:	2
 Source0:	https://files.pythonhosted.org/packages/source/p/%{module}/%{oname}-%{version}.tar.gz#/%{name}-%{version}.tar.gz
 Summary:	Pytest plugin for measuring coverage
 URL:		https://pypi.org/project/pytest-cov/
